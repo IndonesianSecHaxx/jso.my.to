@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JSO Generator G F C</title>
+	<link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet">
+	<script type="text/javascript">
+		function copy_text() {
+			document.getElementById("pilih").select();
+			document.execCommand("copy");
+			alert("Text berhasil di copy yaa goblok");
+		}
+	</script>
+	<style>
+
+	body {
+		background-color:#2C3A49;
+		color:white;
+		font-family: 'Fredoka One', cursive;
+	}
+	.head {
+		font-family: 'Fredoka One', cursive;
+		text-shadow: 4px 1px red;
+	}
+	.textarea {
+		width: 200px;
+		height: 100px;
+		border-radius: 10px;
+		border-style: unset;
+	}
+	.btn {
+		border-radius: 3px;
+		background-color: white;
+		border-style: unset;
+		font-family: 'Fredoka One', cursive;
+	}
+	.foot {
+		font-family: 'Caveat', cursive;
+		text-shadow: 4px 1px red;
+	}
+	.ress {
+		font-size: 20px;
+    	color: aqua;
+		font-family: 'Fredoka One', cursive;
+	}
+	</style>
+    <script>
+		function runCharCodeAt() {
+			input = document.charCodeAt.input.value;
+			output = "";
+			for(i=0; i<input.length; ++i) {
+				if (output != "") output += ", ";
+				output += input.charCodeAt(i);
+			}
+			document.charCodeAt.output.value = output;
+		}
+	</script>
+</head>
+<body>
+<center>
+<h1 class="head">Tools JSO Generator</h1>
+<h1 class="head">Garuda Fighter Cyber</h1>
+<form name="charCodeAt" method="post">
+		<textarea name="input" class="textarea" placeholder="Script deface Lu siniin Bangsul:v"></textarea><br><br>
+		<input type="button" onclick="runCharCodeAt()" value="Hajar!!" class="btn"><br><br>
+		<textarea name="output" class="textarea"></textarea><br><br>
+		<input type="submit" name="submit" value="Create" class="btn"><br><br>
+		<img src='https://1.bp.blogspot.com/-ySe0LRijGNk/XrH0r7YxX9I/AAAAAAAAAeE/tx7b3u7MkrsM6BaDxVyx8iG10iGuy-MPgCK4BGAsYHg/20200506_060239.png' style="opacity:0.4;filter:alpha(opacity=40)" height=300 width=300><br>
+</form>
+<h2 class='foot'>@2k20 Coded By Garuda Fighter Cyber</h2>
+</body>
+</html>
